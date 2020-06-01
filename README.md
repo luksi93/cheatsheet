@@ -20,7 +20,9 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%e "-filename<CreateD
 
 ## Shell scripting
 
-### Shell script control flow
+### Shell script control flow 
+
+This part was 'forked' from [ffraenz/cheatsheet](https://github.com/ffraenz/cheatsheet)
 
 | Description                                    | Structure                          |
 | ---------------------------------------------- | ---------------------------------- |
