@@ -1,5 +1,7 @@
 # cheat-sheets
 
+Partially forked from [ffraenz/cheatsheet](https://github.com/ffraenz/cheatsheet)
+
 - [exiftool](#exiftool)
 - [Git](#Git)
 - [Shell scripting](#Shell-scripting)
@@ -19,7 +21,8 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%e "-filename<CreateD
 ## Git
 
 ## Shell scripting
- Common bash control flow structures:
+
+### Shell script control flow
 
 | Description                                    | Structure                          |
 | ---------------------------------------------- | ---------------------------------- |
