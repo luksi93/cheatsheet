@@ -1,10 +1,10 @@
 # cheat-sheets
 
-- [exiftool](#exiftool)
+- [ExifTool](#ExifTool)
 - [Git](#Git)
 - [Shell scripting](#Shell-scripting)
 
-## exiftool
+## ExifTool
 
 ### Renaming files based on creation date
 
