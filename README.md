@@ -1,7 +1,5 @@
 # cheat-sheets
 
-Partially forked from [ffraenz/cheatsheet](https://github.com/ffraenz/cheatsheet)
-
 - [exiftool](#exiftool)
 - [Git](#Git)
 - [Shell scripting](#Shell-scripting)
