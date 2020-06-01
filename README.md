@@ -1,6 +1,7 @@
 # cheat-sheets
 - [exiftool](https://github.com/luksi93/cheat-sheets/blob/master/README.md#exiftool)
 - [Git](https://github.com/luksi93/cheat-sheets/blob/master/README.md#Git)
+- [Shell scripting](https://github.com/luksi93/cheat-sheets/blob/master/README.md#Shell-scripting)
 ## exiftool
 ### Renaming files based on creation date
 The first command only displays a preview of how the files will be renamed. The second one actually renames the files.
@@ -10,3 +11,4 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%e "-testname<CreateD
 exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%e "-filename<CreateDate" path/to/folder_or_file
 ```
 ## Git
+## Shell scripting
