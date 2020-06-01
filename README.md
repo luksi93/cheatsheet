@@ -1,2 +1,3 @@
 # cheat-sheets
-Who never used a cheat-sheet should throw the first stone...
+## exiftool
+### Renaming files based on creation date
