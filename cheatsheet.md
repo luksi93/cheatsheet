@@ -6,7 +6,7 @@
 
 ## ExifTool
 
-### Renaming files based on creation date
+### Renaming picture files based on creation date
 
 The first command only displays a preview of how the files will be renamed. The second one actually renames the files.
 The files will be renamed to `IMG-YYYYMMDD-HHMMSS-CC.EXT` with CC being an incrementing counter and EXT the original file extension.
