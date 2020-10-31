@@ -20,6 +20,13 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%e "-filename<CreateD
 
 ## Shell scripting
 
+### Ask for confirmation (ZSH shell specific)
+
+```
+read -q "REPLY?Do you want to ... ?"
+if [[ $REPLY =~ ^[Yy]$ ]] then ... fi
+```
+
 ### Shell script control flow 
 
 This part is 'forked' from [ffraenz/cheatsheet](https://github.com/ffraenz/cheatsheet)
