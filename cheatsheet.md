@@ -20,7 +20,7 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%e "-filename<CreateD
 
 ## Shell scripting
 
-### Ask for confirmation (ZSH shell specific)
+### Ask for confirmation
 
 ```
 read -q "REPLY?Do you want to ... ?"
