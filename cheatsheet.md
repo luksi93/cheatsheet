@@ -21,10 +21,15 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%e "-filename<CreateD
 ### Useful commands for investigating project history
 
 ```git shortlog -e -n -s [path]``` prints the list of contributors in the specified [path] ordered by number of contributions.
+
 ```git effort --above [number]``` will print the files affected for a number of commits greater than [number] ([Part of git-extras](https://github.com/tj/git-extras)).
+
 ```git blame [file]``` will output the [file] content alongside with author for a particular line, and commit hash for the same line.
+
 ```git grep [regexp]``` will print the lines in all the tracked files where the regexp is present.
+
 ```git log -G [regexp]``` will output the commits where [regexp] is present on the diff associated to the commit.
+
 ```git log --follow -- filename``` will output the history of a particular file.
 
 ## Shell scripting
