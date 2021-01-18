@@ -18,10 +18,19 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%e "-filename<CreateD
 
 ## Git
 
+### Useful commands for investigating project history
+
 Print the list of contributors in the specified [path] ordered by number of contributions:
 
 ```
 git shortlog -e -n -s [path]
+```
+
+Will print the files affected for a number of commits greater than [number]
+
+```
+git effort --above [number]
+
 ```
 
 ## Shell scripting
