@@ -30,7 +30,6 @@ Will print the files affected for a number of commits greater than [number]
 
 ```
 git effort --above [number]
-
 ```
 
 ## Shell scripting
