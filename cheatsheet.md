@@ -32,6 +32,8 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%e "-filename<CreateD
 
 ```git log --follow -- filename``` will output the history of a particular file.
 
+```git log [--since=date] [--until=date]``` Well, this is self-explanatory.
+
 ## Shell scripting
 
 ### Ask for confirmation
