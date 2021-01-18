@@ -18,6 +18,12 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%e "-filename<CreateD
 
 ## Git
 
+Print the list of contributors in the specified [path] ordered by number of contributions:
+
+```
+git shortlog -e -n -s [path]
+```
+
 ## Shell scripting
 
 ### Ask for confirmation
