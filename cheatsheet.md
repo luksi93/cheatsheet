@@ -4,6 +4,7 @@
 - [Git](#Git)
 - [Shell scripting](#Shell-scripting)
 
+
 ## ExifTool
 
 ### Renaming picture files based on creation date
@@ -15,6 +16,7 @@ The files will be renamed to `IMG-YYYYMMDD-HHMMSS-CC.EXT` with CC being an incre
 exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%e "-testname<CreateDate" path/to/folder_or_file
 exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%e "-filename<CreateDate" path/to/folder_or_file
 ```
+
 
 ## Git
 
@@ -31,6 +33,7 @@ Will print the files affected for a number of commits greater than [number]
 ```
 git effort --above [number]
 ```
+
 
 ## Shell scripting
 
