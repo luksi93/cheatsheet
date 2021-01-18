@@ -26,10 +26,22 @@ Print the list of contributors in the specified [path] ordered by number of cont
 git shortlog -e -n -s [path]
 ```
 
-Will print the files affected for a number of commits greater than [number] ([Part of git-extras](https://github.com/tj/git-extras))
+Will print the files affected for a number of commits greater than [number] ([Part of git-extras](https://github.com/tj/git-extras)):
 
 ```
 git effort --above [number]
+```
+
+Using git blame will output the [file] content alongside with author for a particular line, and commit hash for the same line:
+
+```
+git blame [file]
+```
+
+This will print the lines in all the tracked files where the regexp is present:
+
+```
+git grep [regexp]
 ```
 
 ## Shell scripting
