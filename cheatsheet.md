@@ -44,6 +44,18 @@ This will print the lines in all the tracked files where the regexp is present:
 git grep [regexp]
 ```
 
+This will output the commits where [regexp] is present on the diff associated to the commit.
+
+```
+git log -G [regexp]
+```
+
+```git log --follow -- filename``` will output the history of a particular file.
+
+```
+git log --follow -- [filename]
+```
+
 ## Shell scripting
 
 ### Ask for confirmation
