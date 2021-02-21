@@ -43,6 +43,12 @@ read -q "REPLY?Do you want to ... ?"
 if [[ $REPLY =~ ^[Yy]$ ]] then ... fi
 ```
 
+### Return absolute path of the script that is run
+
+```
+echo $(cd `dirname $0` && pwd)
+```
+
 ### Shell script control flow 
 
 This part is 'forked' from [ffraenz/cheatsheet](https://github.com/ffraenz/cheatsheet)
