@@ -48,6 +48,7 @@ if [[ $REPLY =~ ^[Yy]$ ]] then ... fi
 ```
 echo $(cd `dirname $0` && pwd)
 ```
+Note that although the change directory command (cd) is used, the script will not change directory and any other calls within it are still relative to the current working directory.
 
 ### Shell script control flow 
 
