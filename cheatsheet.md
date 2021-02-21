@@ -39,7 +39,7 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%le "-filename<Create
 ### Ask for confirmation
 
 ```
-read -q "REPLY?Do you want to ... ?"
+read -p REPLY -n 1 -r
 if [[ $REPLY =~ ^[Yy]$ ]] then ... fi
 ```
 
