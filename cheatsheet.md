@@ -43,7 +43,7 @@ read -q "REPLY?Do you want to ... ?"
 if [[ $REPLY =~ ^[Yy]$ ]] then ... fi
 ```
 
-### Return absolute path of the script that is run
+### Always return the absolute path to the directory the script is located
 
 ```
 echo $(cd `dirname $0` && pwd)
