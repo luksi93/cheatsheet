@@ -45,7 +45,7 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%le "-filename<Create
 | Close current window with all panes            | `⌘ Cmd` + `⇧ Shift` + `w`          |
 | Split pane                                     | `⌘ Cmd` + `d`                      |
 | Split pane horizontally                        | `⌘ Cmd` + `⇧ Shift` + `d`          |
-| Resize pane                                    | `⌘ Cmd` + `⌃ ctrl` + `arrow key`   |
+| Resize pane                                    | `⌘ Cmd` + `⌃ Ctrl` + `arrow key`   |
 | Switch pane                                    | `⌘ Cmd` + `⌥ Option` + `arrow key` |
 
 ## Shell scripting
