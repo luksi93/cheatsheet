@@ -2,6 +2,7 @@
 
 - [ExifTool](#ExifTool)
 - [Git](#Git)
+- [iTerm](#iTerm)
 - [Shell scripting](#Shell-scripting)
 
 ## ExifTool
@@ -33,6 +34,19 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%le "-filename<Create
 ```git log --follow -- filename``` will output the history of a particular file.
 
 ```git log [--since=date] [--until=date]``` Well, this is self-explanatory.
+
+## iTerm
+
+### Shortcuts
+
+| Description                                    | Shortcut                           |
+| ---------------------------------------------- | ---------------------------------- |
+| Close current pane                             | `CMD + w`                          |
+| Close current window with all panes            | `CMD + Shift + w`                  |
+| Split pane                                     | `CMD + d`                          |
+| Split pane horizontally                        | `CMD + Shift + d`                  |
+| Resize pane                                    | `CMD + control + arrow key`        |
+| Switch pane                                    | `CMD + option + arrow key`         |
 
 ## Shell scripting
 
