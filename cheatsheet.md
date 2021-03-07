@@ -19,6 +19,10 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%le "-filename<Create
 
 ## Git
 
+### Show the git config (global and local if in a repo). It also shows from where each property comes.
+
+```git config --list --show-origin```
+
 ### Useful commands for investigating project history
 
 ```git shortlog -e -n -s [path]``` prints the list of contributors in the specified [path] ordered by number of contributions.
