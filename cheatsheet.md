@@ -39,6 +39,8 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%le "-filename<Create
 
 ```git log [--since=date] [--until=date]``` Well, this is self-explanatory.
 
+```git diff-tree --no-commit-id --name-status -r [commit id]``` Shows the files that were affected by the given commit.
+
 ## iTerm
 
 ### Shortcuts
