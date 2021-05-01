@@ -19,7 +19,7 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%le "-filename<Create
 
 ### Moving .nef files that do not have a corresponding .jpg file in the current directory
 
-After my shootings I usually go through the jpgs and remove the ones I don't like. This command makes life a lot easier to also get rid of the correspodning raw files.
+After downloading pictures from the camera I usually go through the jpgs and remove the ones I don't like. This command makes life a lot easier to also get rid of the correspodning raw files.
 
 ```
 exiftool -ext nef -directory=deleted -tagsfromfile %d%f.jpg -directory .
