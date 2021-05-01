@@ -17,6 +17,12 @@ exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%le "-testname<Create
 exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%le "-filename<CreateDate" path/to/folder_or_file
 ```
 
+### Moving .nef files that do not have a corresponding .jpg file in the current directory
+
+```
+exiftool -ext nef -directory=deleted -tagsfromfile %d%f.jpg -directory .
+```
+
 ## Git
 
 ### Show the git config (global and local if in a repo). It also shows from where each property comes.
