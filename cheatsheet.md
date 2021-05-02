@@ -53,15 +53,15 @@ exiftool -ext nef -directory=deleted -tagsfromfile %d%f.jpg -directory .
 
 ### Shortcuts
 
-| Description                                    | Shortcut                           |
-| ---------------------------------------------- | ---------------------------------- |
-| Close current pane                             | `⌘ Cmd` + `w`                      |
-| Close current window with all panes            | `⌘ Cmd` + `⇧ Shift` + `w`          |
-| Split pane                                     | `⌘ Cmd` + `d`                      |
-| Split pane horizontally                        | `⌘ Cmd` + `⇧ Shift` + `d`          |
-| Resize pane                                    | `⌘ Cmd` + `⌃ Ctrl` + `arrow key`   |
-| Switch pane                                    | `⌘ Cmd` + `⌥ Option` + `arrow key` |
-| Maximize pane                                  | `⌘ Cmd` + `⇧ Shift` + `enter key`  |
+| Description                                    | Shortcut                             |
+| ---------------------------------------------- | ------------------------------------ |
+| Close current pane                             | `⌘ Cmd` + `w`                        |
+| Close current window with all panes            | `⌘ Cmd` + `⇧ Shift` + `w`            |
+| Split pane                                     | `⌘ Cmd` + `d`                        |
+| Split pane horizontally                        | `⌘ Cmd` + `⇧ Shift` + `d`            |
+| Resize pane                                    | `⌘ Cmd` + `⌃ Ctrl` + `arrow key`     |
+| Switch pane                                    | `⌘ Cmd` + `⌥ Option` + `arrow key`   |
+| Maximize pane                                  | `⌘ Cmd` + `⇧ Shift` + `↵ return key` |
 
 ## Shell scripting
 
