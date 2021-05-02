@@ -10,7 +10,7 @@
 ### Renaming picture files based on creation date
 
 The first command only displays a preview of how the files will be renamed. The second one actually renames the files.
-The files will be renamed to `IMG-YYYYMMDD-HHMMSS-CC.EXT` with CC being an incrementing counter and EXT the original file extension.
+The files will be renamed to `IMG-YYYYMMDD-HHMMss-CC.ext` with CC being an incrementing counter and ext the original file extension in lowercase.
 
 ```
 exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%le "-testname<CreateDate" path/to/folder_or_file
