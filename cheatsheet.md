@@ -61,6 +61,7 @@ exiftool -ext nef -directory=deleted -tagsfromfile %d%f.jpg -directory .
 | Split pane horizontally                        | `⌘ Cmd` + `⇧ Shift` + `d`          |
 | Resize pane                                    | `⌘ Cmd` + `⌃ Ctrl` + `arrow key`   |
 | Switch pane                                    | `⌘ Cmd` + `⌥ Option` + `arrow key` |
+| Maximize pane                                  | `⌘ Cmd` + `⇧ Shift` + `enter key`  |
 
 ## Shell scripting
 
