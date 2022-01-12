@@ -1,4 +1,4 @@
-# cheat-sheets
+# cheatsheet
 
 - [ExifTool](#ExifTool)
 - [Git](#Git)
