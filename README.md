@@ -65,6 +65,17 @@ exiftool -ext nef -directory=deleted -tagsfromfile %d%f.jpg -directory .
 
 ## Shell scripting
 
+### Return codes
+
+```echo $?``` echos the last return code (RC)
+
+### Control operators example
+
+If command1 exits with a return code of 0, then execute command2, otherwise execute command3: 
+```
+command1 && command2 || command3 ;
+```
+
 ### Ask for confirmation
 
 ```
