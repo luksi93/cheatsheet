@@ -11,6 +11,31 @@ If command1 exits with a return code of 0, then execute command2, otherwise exec
 command1 && command2 || command3 ;
 ```
 
+### Logical operators
+
+```
+if [ arg1 operator arg2 ]
+  then 
+  command1
+elif [ arg1 operator arg2 ]
+  then
+  command2
+else 
+  command3
+fi
+```
+
+### String comparison operators
+
+| Operator                                    | Description                                            |
+| --------------------------------------------| ------------------------------------------------------ |
+| `-z string`                                 | True if the length of string is zero                   |
+| `-n string`                                 | True if the length of string is non-zero               |
+| `string1 = string2` or `string1 == string2` | True if the strings are equal (1 `=` for POSIX)        |
+| `string1 != string2`                        | True if the strings are not equal                      |
+| `string1 < string2`                         | True if string1 sorts before string2 lexicographically |
+| `string1 > string2`                         | True if string1 sorts after string2 lexicographically  |
+
 ### Ask for confirmation
 
 ```
