@@ -47,6 +47,22 @@ fi
 | `arg1 -gt arg2`  | True if arg1 is greater than arg2                     |
 | `arg1 -ge arg2`  | True if True if arg1 is greater than or equal to arg2 |
 
+### Loops syntax
+
+The below will print the numbers from 1 to 9 each on a new line.
+
+```
+for counter in 1 2 3 4 5 6 7 8 9 ; do echo $counter ; done
+```
+
+While and until loops syntax: 
+```
+while [ expression ] ; do command1 ; done
+until [ expression ] ; do command1 ; done
+```
+
+While iterates as long as the expression is true. Until itterates until the expression evaluates to true.
+
 ### Ask for confirmation
 
 ```
