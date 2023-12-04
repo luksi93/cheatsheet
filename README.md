@@ -16,6 +16,10 @@ The files will be renamed to `IMG-YYYYMMDD-HHMMss-CC.ext` with CC being an incre
 exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%le "-testname<CreateDate" path/to/folder_or_file
 exiftool -fileOrder createdate -d IMG-%Y%m%d-%H%M%S%%-2.c.%%le "-filename<CreateDate" path/to/folder_or_file
 ```
+CMD I currently use:
+```
+exiftool "-FileName<CreateDate" -d %Y-%m-%d_Location_Description_%%4.c.%%ue -fileOrder CreateDate path/to/folder_or_file
+```
 
 ### Moving .nef files that do not have a corresponding .jpg file in the current directory
 
